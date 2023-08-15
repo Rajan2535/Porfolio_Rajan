@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rajan Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/db8dc1f28b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <!------------------header section-------------------->
+   <div id="header">
+      <div class="container">
+         <nav>
+            <img src="./images/logorajan.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi,I'm <span>Rajan</span><br> Kumar From India</h1>
+         </div>
+      </div>
+   </div>
+   <!-- ----------------------About Section----------------------------- -->
+   <div id="about">
+      <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+               <img src="./images/user.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">About Me</h1>
+               <p>Passionate and highly motivated Full stack
+                  Developer seeking an opportunity to leverage
+                  my technical skills and creativity in 
+                  developing innovative web applications. 
+                  Eager to contribute to a dynamic team,
+                  learn new technologies, and enhance user 
+                  experiences.</p>
+                  <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                     <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Front-end</span><br>HTML5, CSS3, Bootstrap, Javascript, React</li>
+                        <li><span>Back-end</span><br>Express.Js, Node.JS, Mono DB</li>
+                     </ul>
+                  </div>
+                  <div class="tab-contents" id="projects">
+                     <ul>
+                        <li><span><h2>Work in Progress</h2></span></li>
+                     </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                     <ul>
+                        <li><span>2019 - 2023</span><br>B.E./B.Tec.(Computer Science)</li>
+                        <li><span>2018 - 2019</span><br>Intermediate (CBSE) | Patel Public School, Rajpura</li>
+                        <li><span>2016 - 2017</span><br>Matriculation (CBSE) | Patel Public School, Rajpura</li>
+                     </ul>
+                  </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- ---------------------------------My Services---------------------------------------- -->
+   <div id="services">
+      <div class="container">
+         <h1 class="sub-title">My Services</h1>
+         <div class="services-list">
+            <div>
+               <i class="fa-solid fa-layer-group"></i>
+               <h2>Web Design</h2>
+               <p>
+                  User-Centric Design Prioritize user needs, clear navigation, and usability
+                  Responsive and Fast: Ensure mobile-friendly layout and optimize for speed.
+               </p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-crop-simple"></i>
+               <h2>UI/UX Design</h2>
+               <p>
+                  User-Centric Design Prioritize user needs, clear navigation, and usability
+                  Responsive and Fast: Ensure mobile-friendly layout and optimize for speed.
+               </p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-code"></i>
+               <h2>Web Development</h2>
+               <p>
+                  User-Centric Design Prioritize user needs, clear navigation, and usability
+                  Responsive and Fast: Ensure mobile-friendly layout and optimize for speed.
+               </p>
+               <a href="#">Learn more</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- ----------------------------------------------------Portfolio------------------------------------------------------------ -->
+   <div id="portfolio">
+      <div class="container">
+         <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+               <img src="./images/work-1.png" alt="work-1">
+               <div class="layer">
+                  <h3>Feature Hub</h3>
+                  <p>Feature Hub is a remote user research platform
+                     that takes the guesswork out of design decisions
+                     by validating them with real users</p>
+                     <a href="https://rajan2535.github.io/Feature-Hub-WEb/" alt="Feature-Hub-WEb">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </a>
+               </div>
+            </div>
+            <div class="work">
+               <img src="./images/work-2.png" alt="work-1">
+               <div class="layer">
+                  <h3>Tin Dog</h3>
+                  <p>
+                     A pet buying web page that will make user life by selling
+                     and buying a pet nearyby there locality. 
+                  </p>
+                     <a href="https://rajan2535.github.io/Tin_dog/" alt="Tin_dog">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </a>
+               </div>
+            </div>
+            <div class="work">
+               <img src="./images/work-3.png" alt="work-1">
+               <div class="layer">
+                  <h3>Move Freely</h3>
+                  <p>
+                      we are on a mission to provide exceptional moving 
+                      services to customers in the India. As a startup,
+                      we believe that moving doesn't have to be stressful.
+                  </p>
+                     <a href="https://rajan2535.github.io/move_freely/" alt="move_freely">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+   </div>
+   <!----------------------------------------- Contact me----------------------------------------------- -->
+   <div id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-regular fa-paper-plane"></i>rajanrk2535@gmail.com</p>
+               <p><i class="fa-solid fa-mobile-screen-button"></i>9023479429</p>
+               <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/rajan-kumar-2535rk/"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/Rajan2535?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                  <a href="rajanrk2535@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+               </div>
+               <a href="./images/Rajan kumar_Resume.pdf" download class="btn btn2" >Download Resume</a>
+            </div>
+            
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg">Hello User</span>
+            </div>
+         </div>
+      </div>
+      <div class="copy-right">
+         <p>Copyright @ Rajan. </p>
+      </div>
+   </div>
+   <script src="./index.js"></script>
+<!-- form google  -->
+<form name="submit-to-google-sheet">
+</form>
+ 
+ <script>
+   const scriptURL = 'https://script.google.com/macros/s/AKfycbzYEbpShJrNoLuHohxUpmlYys1eieGM3dF9cYj58A1Zjc5hRCiHNPRHi74Mxv449XulrQ/exec'
+   const form = document.forms['submit-to-google-sheet']
+   const msg = document.getElementById("msg")
+ 
+   form.addEventListener('submit', e => {
+     e.preventDefault()
+     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+       .then(response => {
+         msg.innerHTML = "Message sent successfully"
+         setTimeout(function(){
+            msg.innerHTML = ""
+         },5000)
+         form.reset()
+       })
+       .catch(error => console.error('Error!', error.message))
+   })
+ </script>
+</body>
+
+</html>
